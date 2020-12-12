@@ -1,0 +1,50 @@
+.header1{
+    
+    border-radius: 20px;
+     margin-left: 20%;
+     margin-right: 20%;
+     
+     
+ }
+ .header1 img{
+     width: 300px;
+     height: 100px;
+ }
+ body{
+     background-color:#ffb71e;
+     text-align: center;
+ }
+ .heading{
+     border-bottom: 1px solid black;
+ }
+ .form1{
+     margin-left: 20%;
+     margin-right: 20%;
+     height: 80vh;
+     border-radius: 20px;
+     border:1px;
+     border-color: #637daf;
+     padding-left: 5%;
+     padding-right: 5%;
+     overflow-y: auto;
+     margin-top: 2%;
+ 
+ 
+ }
+ span{
+     font-weight: bold;
+     text-decoration: underline;
+ }
+ .f1{
+     padding:1%;
+ }
+ .moral
+ {
+     border-bottom: 1px solid black;
+ }
+ .texta{
+     text-decoration: none;
+     font-style: italic;
+     font-weight: normal;
+ }
+ 

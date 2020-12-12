@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gamepage | JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div class="header1" style="background-color: aliceblue;">
+        <img src="image/forma.svg" alt="form a story">
+    </div>
+    <div class="form1" style="background-color: rgb(255,240,208);">
+        <div class="heading">
+            <h1>Complete the form- </h1>
+            <h1>and Complete the story</h1>
+        </div>
+
+        <!-- form-data -->
+
+
+        <form action="story.html" id="form1" >
+            <div class="f1">
+                <label for="animal">Animal:</label>
+                <input type="text" label="Animal" placeholder="Tiger" id="name">
+            </div>
+            <div class="f1">
+                <label for="another_animal">Another Animal:</label>
+                <input type="text" label="Animal" placeholder="Lion" id="an_namee">
+            </div>
+            <div class="f1">
+                <label for="more_animal">One more animal:</label>
+                <input type="text" label="Animal" placeholder="dog" id="one_more">
+            </div>
+            <div class="f1">
+                <label for="adjective">Adjective(past tense):</label>
+                <input type="text" label="Animal" placeholder="Slammed" id="adjective">
+            </div>
+
+            <div class="f1">
+                <label for="animal">Verb(ends in -ing):</label>
+                <input type="text" label="Animal" placeholder="running" id="verb">
+            </div>
+            <div class="f1">
+                <label for="animal">Numbers:</label>
+                <input type="text" label="Animal" placeholder="2" id="number">
+            </div>
+            <div class="f1">
+                <label for="animal">Yes or No:</label>
+                <input type="radio" label="Animal" placeholder="yes or no" id="yes" name="a">
+                <label for="animal">Yes</label>
+                <input type="radio" label="Animal" placeholder="yes or no" id="no" name="a">
+                <label for="animal">No</label>
+            </div>
+            <div class="f1">
+                <label for="animal">Relative speed(ends in -er)</label>
+                <input type="text" placeholder="quicker" id="speed">
+            </div>
+            <div class="f1">
+                <label for="motivational">Motivational Quote:</label>
+                <input type="text" placeholder="example" id="quote">
+            </div>
+            <div class="f1">
+                <label for="message">Meaningful Message:</label><br>
+                <textarea rows="10" cols="40" id="texta">This is a meaningful text</textarea>
+            </div>
+            <input type="submit" value="Form my story" onclick="onSubmit()">
+        </form>
+    </div>
+</body>
+
+</html>
